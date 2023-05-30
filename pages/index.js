@@ -5,12 +5,12 @@ import {
   AiFillYoutube,
   AiFillGithub
 } from "react-icons/ai";
-import reactLogo from "../public/reactLogo.png"
-import JAVA from "../public/JAVA.png"
-import nodejS from "../public/nodejS.png"
-import css from "../public/css.png"
-import tawinlind from "../public/tawinlind.png"
-import mongoDb from "../public/mongoDb.png"
+import reactLogo from "../public/reactLogo.png";
+import JAVA from "../public/JAVA.png";
+import nodejS from "../public/nodejS.png";
+import css from "../public/css.png";
+import tawinlind from "../public/tawinlind.png";
+import mongoDb from "../public/mongoDb.png";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/yassin.jpg";
@@ -59,7 +59,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-40 md:w-40">
-            <Image src={deved} layout="fill" objectFit="cover"   alt="A descriptive text for the image" />
+            <Image src={deved} layout="fill" objectFit="cover" alt="A descriptive text for the image" />
           </div>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
@@ -84,14 +84,12 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1  text-teal-600 ">Services I offer</h3>
-
-
+            <h3 className="text-3xl md:text-4xl py-2 text-teal-600">Services I offer</h3>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100}   alt="A descriptive text for the image" />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+          <div className="md:flex gap-6 lg:gap-10">
+            <div className="text-center shadow-lg p-6 md:p-10 rounded-xl my-6 md:my-10 dark:bg-white flex-1">
+              <Image src={design} width={100} height={100} alt="A descriptive text for the image" />
+              <h3 className="text-lg font-medium pt-6 pb-2">
                 Beautiful Designs
               </h3>
               <p className="py-2">
@@ -100,99 +98,88 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600 font-bold">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">canva</p>
+              <p className="text-gray-800 py-1">Canva</p>
               <p className="text-gray-800 py-1">Figma</p>
-
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100}   alt="A descriptive text for the image" />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+            <div className="text-center shadow-lg p-6 md:p-10 rounded-xl my-6 md:my-10 dark:bg-white flex-1">
+              <Image src={code} width={100} height={100} alt="A descriptive text for the image" />
+              <h3 className="text-lg font-medium pt-6 pb-2">
                 Code your dream project
               </h3>
               <p className="py-2">
-  Do you have an idea for your next great website? Let&apos;s make it a reality.
-</p>
-
-              <h4 className="py-4 text-teal-600 font-bold">technology i use</h4>
-              <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">Html</p>
-              <p className="text-gray-800 py-1">Css</p>
+                Do you have an idea for your next great website? Let's make it a reality.
+              </p>
+              <h4 className="py-4 text-teal-600 font-bold">Technologies I Use</h4>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">CSS</p>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Node Js</p>
+              <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">Vue</p>
-              <p className="text-gray-800 py-1">Mongodb</p>
-              <p className="text-gray-800 py-1">Mysql</p>
+              <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">MySQL</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100}  alt="A descriptive text for the image"  />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+            <div className="text-center shadow-lg p-6 md:p-10 rounded-xl my-6 md:my-10 dark:bg-white flex-1">
+              <Image src={consulting} width={100} height={100} alt="A descriptive text for the image" />
+              <h3 className="text-lg font-medium pt-6 pb-2">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-4xl py-1  text-teal-600 ">Portofolio</h3>
-            <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200 min-w-[50%] w-[1050px]">
-              I have worked on a range of projects, including a car and bike rental platform, a food delivery system, a mobile app,
-              and an event booking app. For the rental platform, I developed user-friendly interfaces and implemented a secure booking system. In the food delivery system,
-              I focused on creating a seamless ordering process and real-time tracking features. The mobile app project involved designing intuitive interfaces and integrating social
-              media sharing capabilities. Lastly, I contributed to the development of an event booking app with a ticketing system. These projects have allowed me to enhance my skills
-              in various areas of web and mobile development
+            <h3 className="text-3xl md:text-4xl py-2  text-teal-600">Portfolio</h3>
+            <p className="text-lg md:text-xl py-2  md:leading-8 text-black dark:text-gray-200 max-w-[100%] w-[100%] ">
+              I have worked on a range of projects, including a car and bike rental platform, a food delivery system, a mobile app, and an event booking app. For the rental platform, I developed user-friendly interfaces and implemented a secure booking system. In the food delivery system, I focused on creating a seamless ordering process and real-time tracking features. The mobile app project involved designing intuitive interfaces and integrating social media sharing capabilities. Lastly, I contributed to the development of an event booking app with a ticketing system. These projects have allowed me to enhance my skills in various areas of web and mobile development.
             </p>
-
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          <div className="flex flex-col gap-6 py-10 md:flex-row md:flex-wrap">
+            <div className="flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"160%"}
-                height={"100%"}
+                width={600}
+                height={400}
                 layout="responsive"
-                alt="A descriptive text for the image" 
+                alt="A descriptive text for the image"
                 src={web1}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"160%"}
-                height={"100%"}
-                alt="A descriptive text for the image" 
+                width={600}
+                height={400}
                 layout="responsive"
+                alt="A descriptive text for the image"
                 src={web2}
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"160%"}
-                height={"100%"}
+                width={600}
+                height={400}
                 layout="responsive"
-                alt="A descriptive text for the image" 
+                alt="A descriptive text for the image"
                 src={web3}
-                
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="flex-1">
               <Image
                 className="rounded-lg object-cover"
-                alt="A descriptive text for the image" 
-                width={"160%"}
-                height={"100%"}
+                width={600}
+                height={400}
                 layout="responsive"
+                alt="A descriptive text for the image"
                 src={web4}
               />
             </div>
-
-
           </div>
         </section>
       </main>
-    </div >
+    </div>
   );
 }
