@@ -107,8 +107,9 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a reality.
+                Do you have an idea for your next great website? Let&apos;s make it a reality.
               </p>
+
               <h4 className="py-4 text-teal-600 font-bold">Technologies I Use</h4>
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">HTML</p>
